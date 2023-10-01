@@ -1,0 +1,10 @@
+#!/bin/sh
+
+wall=$(find /home/manjot/pix/wallpapers -type f -name "*.jpg"  | shuf -n 1 )
+
+xwallpaper --zoom $wall
+
+wal -i $wall
+
+
+xdotool key super+F5
