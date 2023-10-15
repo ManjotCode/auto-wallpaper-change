@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wall=$(find /home/manjot/pix/wallpapers -type f -name "*.jpg"  | shuf -n 1 )
+wall=$(find ~/pix/wallpapers -type f -name "*.jpg"  | shuf -n 1 )
 
 xwallpaper --zoom $wall
 
